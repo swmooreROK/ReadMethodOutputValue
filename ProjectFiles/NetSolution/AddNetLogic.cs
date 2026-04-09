@@ -24,6 +24,9 @@ public class AddNetLogic : BaseNetLogic
     }
     [ExportMethod]
     public void AddNumbers(int number1, int number2, out int result) {
+        // Input1Spinbox.Value > number1
+        // Input2Spinbox.Value > number2
+        // result > ResultTextBox.Text
         result = number1 + number2;
     }
 }
